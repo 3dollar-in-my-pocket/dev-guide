@@ -28,15 +28,15 @@
 
 ## Naming
 ### 디렉토리
-- 디렉토리 이름은 대문자로 시작하는 단어로 설정합니다.
-- 해당 디렉토리에 비슷한 기능을 하는 파일들이 들어있다면 단어의 끝에 복수로 `s`를 붙여줍니다.
+- 디렉토리 이름은 소문자로 설정합니다.
+- 디렉토리 이름은 복수에 해당하는 s를 붙이지 않습니다.
     - **Good👏**
          ```swift
-         - Domains, Analytics, Managers...
+         - domain, analytics, manager...
          ```
     - **Bad👎**
         ```swift
-        - Model(X), Service(X)...   => Models, Services
+        - Model(X), Services(X)...   => model, service
         ```
 
 ### 파일명
